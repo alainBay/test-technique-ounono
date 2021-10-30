@@ -5,7 +5,7 @@ password:   TO12to74&*
 ```
 
 
-technologie utiliser :
+technology use: 
 ```
 backend:     NodeJs
 frontend:    Angular
