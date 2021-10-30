@@ -1,0 +1,8 @@
+p {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: #7881ad;
+}

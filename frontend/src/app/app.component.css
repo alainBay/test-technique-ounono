@@ -1,0 +1,82 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+html {
+  background-color: #303f52;
+}
+
+.navBar {
+  min-width: 195px;
+  width: 10%;
+  height: 100vh;
+  color: #818d9d;
+  background-color: #303f52;
+}
+
+.Login, .Register, .Profile {
+  width: 11.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Login:hover, .Register:hover, .Profile:hover {
+  color: #d7d9dc;
+}
+
+.Titel {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 6em;
+  font-size: 32px;
+  color: #d7d9dc;
+  cursor: pointer;
+}
+
+.components {
+  height: 100vh;
+  width: 90%;
+  background-color: #f1f3f7;
+  overflow: hidden; 
+}
+
+a, a:hover {
+    text-decoration:none;
+    color: #818d9d;
+}
+
+
+.body {
+    background-color: #fdfdfe;
+    margin: 30px;
+    height: 95vh;
+    border-radius: 8px;
+    border: 10px #d6d6d6;
+    box-shadow: 1px 1px 3px #d6d6d6; 
+    padding: 10px;
+    overflow: auto;
+    scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) #CFD8DC;
+}
+
+.body::-webkit-scrollbar {
+    width: 11px;
+}
+
+.body::-webkit-scrollbar-track {
+  background: #CFD8DC;
+}
+
+.body::-webkit-scrollbar-thumb {
+  background-color: #90A4AE;
+  border-radius: 6px;
+  border: 3px solid #CFD8DC;
+}

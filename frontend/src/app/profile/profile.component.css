@@ -1,0 +1,32 @@
+#UpdatePage {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.input {
+  margin: 20px;
+}
+
+.UpdateTitel{
+  color: #7881ad;
+  font-size: xx-large;
+  margin: 30px 30px 0px 30px;
+}
+
+.UpdateBtnSubmit{
+  margin: 20px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: #d2d6fb;
+  border: 10px #d2d6fb;
+  box-shadow: 1px 1px 3px #d6d6d6;
+  padding: 15px 30px;
+  color: #7c85f6;
+  cursor: pointer;
+}   

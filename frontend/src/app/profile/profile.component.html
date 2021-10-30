@@ -1,0 +1,78 @@
+<div id="UpdatePage">
+    <div>
+        <div class="UpdateTitel">
+            Profil
+        </div>
+        
+        <form (ngSubmit)="Update(u)" #u="ngForm" class="UpdateBody">
+          <input type="hidden" name="id" ngModel="{{getId()}}" >
+
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" ngModel="{{getMail()}}" required>
+          </div>
+      
+          <div class="input">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" ngModel="{{getPassword()}}"  required>
+          </div>
+
+          <div class="input">
+            <label for="last-name">Nom</label>
+            <input type="text" name="nom" id="last-name" ngModel="{{getNom()}}" required>
+          </div>
+
+          <div class="input">
+            <label for="first-name">Prénom</label>
+            <input type="text" name="prenom" id="first-name" ngModel="{{getPrenom()}}" required>
+          </div>
+
+          <div class="input">
+            <label for="photo">Photo</label>
+            <input type="text" name="photo" id="photo" ngModel="{{getPrenom()}}" >
+          </div>
+
+          <div class="input">
+            <label for="tarif">Tarif</label>
+            <input type="text" name="tarif" id="tarif" ngModel="{{getTarif()}}" >
+          </div>
+
+          <div class="input">
+            <label for="refund">Remboursement</label>
+            <input type="text" name="remboursement" id="refund" ngModel="{{getRemboursement()}}">
+          </div>
+
+          <div class="input">
+            <label for="presentation">Présentation</label>
+            <input type="text" name="presentation" id="presentation" ngModel="{{getPresentation()}}">
+          </div>
+
+          <div class="input">
+            <label for="hourly">Horaire</label>
+            <input type="text" name="horaire" id="hourly" ngModel="{{getHoraire()}}">
+          </div>
+
+          <div class="input">
+            <label for="contact">Contact</label>
+            <input type="text" name="contact" id="contact" ngModel="{{getContact()}}">
+          </div>
+
+          <div class="input">
+            <label for="training">Formation</label>
+            <input type="text" name="formation" id="training" ngModel="{{getTraining()}}">
+          </div>
+
+          <div class="input">
+            <label for="langue">Langue</label>
+            <input type="text" name="langue" id="langue" ngModel="{{getLangue()}}">
+          </div>
+
+          <div class="input">
+            <label for="niche">Créneau</label>
+            <input type="datetime-local" name="creneau" id="niche" ngModel="{{getCreneau()}}">
+          </div>
+          
+          <button type="submit" class="UpdateBtnSubmit">Modifier</button>
+        </form>
+    </div>
+</div>

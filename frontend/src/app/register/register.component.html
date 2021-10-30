@@ -1,0 +1,76 @@
+<div id="RegisterPage">
+    <div>
+        <div class="RegisterTitel">
+            Register
+        </div>
+        
+        <form (ngSubmit)="Register(f)" #f="ngForm" class="RegisterBody">
+            <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" ngModel required>
+                </div>
+            
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" ngModel required>
+                </div>
+        
+                <div class="input">
+                    <label for="last-name">Nom</label>
+                    <input type="text" name="nom" id="last-name" ngModel required>
+                </div>
+        
+                <div class="input">
+                    <label for="first-name">Prénom</label>
+                    <input type="text" name="prenom" id="first-name" ngModel required>
+                </div>
+        
+                <div class="input">
+                    <label for="photo">Photo</label>
+                    <input type="text" name="photo" id="photo" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="tarif">Tarif</label>
+                    <input type="text" name="tarif" id="tarif" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="refund">Remboursement</label>
+                    <input type="text" name="Remboursement" id="refund" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="presentation">Présentation</label>
+                    <input type="text" name="presentation" id="presentation" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="hourly">Horaire</label>
+                    <input type="text" name="horaire" id="hourly" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="contact">Contact</label>
+                    <input type="text" name="contact" id="contact" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="training">Formation</label>
+                    <input type="text" name="formation" id="training" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="langue">Langue</label>
+                    <input type="text" name="langue" id="langue" ngModel>
+                </div>
+        
+                <div class="input">
+                    <label for="niche">Créneau</label>
+                    <input type="datetime-local" name="creneau" id="niche" ngModel>
+                </div>
+            
+            <button type="submit" class="RegisterBtnSubmit">inscrire</button>
+        </form>
+    </div>
+</div>
