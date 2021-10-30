@@ -9,4 +9,5 @@ technology use:
 ```
 backend:     NodeJs
 frontend:    Angular
+database:    Mongodb
 ```
